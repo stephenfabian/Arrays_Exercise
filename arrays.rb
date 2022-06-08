@@ -20,3 +20,11 @@ boooooleans.pop
 # To call the value of an element in the array, we would enter the name of the array - friends, and in parenthesis enter the index position that corresponds with the element we want to call
 # If we want to call "Cam" we would enter friends(0)
 # If we want to call "Ethan" we would enter friends(1)
+
+# Explanation of new Ruby method -> take
+# The take method will return x number of elements from an array.  Let's use the below array as an example.
+# numbers = [1, 2, 3, 4, 5, 6]
+# If we want to return the first two elements in the array we will call numbers.take(2)
+numbers = [1, 2, 3, 4, 5, 6]
+numbers.take(2)
+# This should return [1, 2]
